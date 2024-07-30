@@ -21,7 +21,15 @@ class _MyAppState extends State<MyApp> {
         ),
         body: const SingleChildScrollView(
           child: Center(
-            child: Text("salem"),
+            child: Column(
+              children: [
+                Icon(
+                  Icons.abc,
+                  size: 333,
+                ),
+                Text("salem"),
+              ],
+            ),
           ),
         ),
       ),
